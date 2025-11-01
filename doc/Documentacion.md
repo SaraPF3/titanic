@@ -26,13 +26,13 @@ Se necesita un programa que gestione los datos de los botes salvavidas del Titan
 
 La arquitectura es la siguiente:
 
-![Arquitectura](/src/resources/arquitectura.jpg)
+![Arquitectura](/src/main/resources/arquitectura.jpg)
 
 ### Componentes
 
 Los componentes son los siguientes:
 
-![Arquitectura](/src/resources/componentes.jpg)
+![Arquitectura](/src/main/resources/componentes.jpg)
 
 Para la implementación de la clase **Informe** se utiliza una interfaz, **Escritor**, que tiene el método **escribir()**. En éste caso el informe solo puede ser generado con extensión markdown ya que no se han implementado otras, pero es posible hacerlo.
 
@@ -40,7 +40,7 @@ Para la implementación de la clase **Informe** se utiliza una interfaz, **Escri
 
 El protocolo de comunicación es el siguiente:
 
-![Arquitectura](/src/resources/protocoloComunicacion.jpg)
+![Arquitectura](/src/main/resources/protocoloComunicacion.jpg)
 
 En el intercambio de información entre **ServicioEmergencias** y **ExtensionValida**, en caso de que la extenxión sea válida, también devuelve la clase que genera el tipo de extensión que se ha indicado.
 
