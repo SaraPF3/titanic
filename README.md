@@ -2,7 +2,7 @@
 
 Hecho por Sara Pérez
 
-> Link del repositorio: <https://github.com/SaraPF3/Titanic/tree/main>
+> Link del repositorio: <https://github.com/SaraPF3/titanic>
 
 Haz clic aquí para ir a la documentación del proyecto: [Documentación](doc/Documentacion.md)
 
